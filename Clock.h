@@ -11,20 +11,18 @@ using namespace std;
 
 class Clock : public ClockInterface {
 public:
-    Clock(); // Constructor
-    ~Clock(); // Destructor
 
     void initialize(); // Function to initialize the clock with user inputs.
     void updateTime(int timeType); // Function to update the time based on user commands.
     bool clockRun(); // Function to run the clock and handle user commands.
 
 private:
-    int hour;
-    int minute;
-    int second;
-    int inputCmd;
-    bool isMilitaryTime;
-    bool amTrue;
+    int hour{};
+    int minute{};
+    int second{};
+    int inputCmd{};
+    bool isMilitaryTime{};
+    bool amTrue{};
 
     void
     processInputHour(int timeInput); // Function to process and set the hour based on user input and chosen time format.

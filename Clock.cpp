@@ -8,14 +8,6 @@
 
 using namespace std;
 
-Clock::Clock() {
-    // constructor implementation
-}
-
-Clock::~Clock() {
-    // destructor implementation
-}
-
 // Function to initialize the clock with user inputs.
 void Clock::initialize() { // Initial command to get initial times.
     hour = getTime(1);
@@ -32,7 +24,7 @@ bool Clock::clockRun() {
         displayTime(hour, minute, second, isMilitaryTime, amTrue); // Display the current time.
         cin >> inputCmd; // Get the user command.
 
-        if (cin.fail()) { // Validate the user input.
+        if (cin.fail() || inputCmd < 1 || inputCmd > 4) { // Validate the user input.
             cin.clear(); // Clear the error flag.
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard the incorrect input.
             cout << "Invalid command. Please enter a number between 1 and 4." << endl;

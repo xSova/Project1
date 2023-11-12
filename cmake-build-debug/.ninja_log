@@ -1,15 +1,14 @@
 # ninja log v5
-9	558	7203262048340551	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
-4	629	7203262049052284	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
-630	731	7203262050030360	Project1.exe	125fbc70593ca722
-161	1042	7208339255570808	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
-154	1056	7208339255723713	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
-5	1086	7208339256013406	CMakeFiles/Project1.dir/ClockInterface.cpp.obj	1ec95f9b49db6b56
-1086	1684	7208339261954223	Project1.exe	5060a50013620152
-9	369	7208341368203349	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
-4	495	7208341369462919	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
-495	801	7208341372464152	Project1.exe	5060a50013620152
-20	409	7208363602732390	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
 4	521	7208363603855378	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
 10	700	7208363605638868	CMakeFiles/Project1.dir/ClockInterface.cpp.obj	1ec95f9b49db6b56
+20	409	7208363602732390	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
 700	966	7208363608247603	Project1.exe	5060a50013620152
+12	441	7208377718646971	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
+5	547	7208377719709240	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
+0	693	7208377721170943	CMakeFiles/Project1.dir/ClockInterface.cpp.obj	1ec95f9b49db6b56
+694	932	7208377723510652	Project1.exe	5060a50013620152
+6	737	7215293665710584	CMakeFiles/Project1.dir/main.cpp.obj	7bc63c01bd34ba19
+143	750	7215293665850700	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
+750	1239	7215293670700427	Project1.exe	5060a50013620152
+4	461	7215296428549610	CMakeFiles/Project1.dir/Clock.cpp.obj	c7adca55d835d2bd
+462	755	7215296431397437	Project1.exe	5060a50013620152
